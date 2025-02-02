@@ -19,8 +19,8 @@ HLS to Video is a web application that converts m3u8 streams to mp4 video files.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/joshholly/m3u8Convert.git
-    cd m3u8Convert
+    git clone https://github.com/mrdeepak125/m3u8Convert-cineflow
+    cd m3u8Convert-cineflow
     ```
 
 2. Install dependencies:
