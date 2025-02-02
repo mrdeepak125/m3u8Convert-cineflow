@@ -25,6 +25,11 @@ if (!fs.existsSync(tmpDir)) {
   fs.mkdirSync(tmpDir, { recursive: true });
 }
 
+const filePath = path.join(tmpDir, "test.txt");
+fs.writeFileSync(filePath, "Hello Vercel!");
+
+console.log("File created at:", filePath);
+
 // Cleanup function to delete old files
 function cleanupOldFiles() {
   const now = Date.now();
